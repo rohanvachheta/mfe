@@ -20,7 +20,7 @@ jobs:
       - run: npm install
       - run: npm run build
         env:
-          PRODUCTION_DOMAIN: ${‌{ secrets.PRODUCTION_DOMAIN }}
+          PRODUCTION_DOMAIN: d2v4nm159lbj73.cloudfront.net
 
       - name: Configure AWS Credentials
         uses: aws-actions/configure-aws-credentials@v1
